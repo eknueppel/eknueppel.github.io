@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<head>
+		<title>Rock Miner</title>
+		<div id="header">
+			<h1 style="float:left">Rock Miner</h1>
+			<h1 style="float:left">v0.0.1</h1>
+			<h1 style="float:left">Born on 11/20/2015</h1>
+		</div>
+	</head>
+	<body bgcolor="#336699">
+		<table style="width:100%">
+			<tr>
+				<td>The Rock
+					<div id="content" style="width:100%">
+						<p style="display:block">Click the image!</p>
+						<p style="display:block">Get ROCK for dayz son!</p>
+					</div>
+					<div>
+						<div>
+							<label>Total Clicks</label>
+							<input type="text" id="clickerTotal" value=0 />
+						</div>
+						<div>
+							<label>Clicks on Hand</label>
+							<input type="text" id="currentTotal" value=0 />
+						</div>
+						<img id="rock" onclick="increaseTotals()" src="rock.png" height="100px">
+					</div>
+				</td>
+				<td>Level of rock
+					<div>
+						<div>
+							<label id="rockName"></label>
+							<input type="text" id="rockTotal" value=0 />							
+						</div>
+						<div>
+							<label id="rockCalcLabel">Rock Calc</label>							
+							<input type="text" id="rockCalc" value=0/>
+						</div>
+						<div>
+							<label id="rockIntervalLabel">Rock Interval</label>
+							<input type="text" id="rockInterval" value=0 />
+						</div>
+					</div>
+				</td>
+				<td>Achievements/goals
+					<label style="display:block" id="achievement" />
+				</td>
+			</tr>
+			<tr>
+				<td style="">Tools
+					<table style="width:100%">
+						<tr>
+							<td style="width:20%">
+								<img id="tool" src="pickaxeOne.png" height="50px">
+							</td>
+							<td style="width:20%">
+								<img id="tool" src="pickaxeOne.png" height="50px">
+							</td>
+							<td style="width:20%">
+								<img id="tool" src="pickaxeOne.png" height="50px">
+							</td>
+							<td style="width:20%">
+								<img id="tool" src="pickaxeOne.png" height="50px">
+							</td>
+							<td style="width:20%">
+								<img id="tool" src="pickaxeOne.png" height="50px">
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td id="characterCell">Character Level
+					<input id="characterLevel" value=1 />
+					<img style="display:block" id="character" src="character.png" height="100px">					
+				</td>
+				<td>
+					<label>Menu</label>
+					<a style="display:block" href="hostingstart.html" class="button" alt="Home">Home</a>
+					<a style="display:block" onclick="resetFunc()" class="button" alt="Reset">Reset Game</a>
+					<a style="display:block" onclick="increaseRockTotal()" class="button" alt="Reset">Add Rock</a>
+				</td>
+			</tr>
+		</table>
+		<script src="myScript.js"></script>
+	</body>
+
+</html>
