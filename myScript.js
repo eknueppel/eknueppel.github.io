@@ -204,7 +204,7 @@ function getRockCalc()
 {
 	var total = document.getElementById('rockTotal').value;
 	var interval = document.getElementById('rockInterval').value;
-	if(interval != 0)
+	if(interval != 0 && interval != null)
 	{
 	document.getElementById('rockCalc').value = total/interval;
 	}
