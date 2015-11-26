@@ -209,7 +209,7 @@ function getRockCalc()
 	var interval = document.getElementById('rockInterval').value;
 	if(interval != 0)
 	{
-		var displayValue = (total/interval).toFixed(2);
-		document.getElementById('rockCalc').value = displayValue;
+		var displayValue = (total/interval);
+		document.getElementById('rockCalc').value = displayValue.toFixed(2);
 	}
 }
