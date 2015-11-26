@@ -23,24 +23,23 @@ function resetFunc()
 function increaseTotals()
 {
 	increaseClickerTotal();
-		
 }
 
 function increaseClickerTotal()
 {
 	var value = parseInt(document.getElementById('clickerTotal').value, 10);
-    value = isNaN(value) ? 0 : value;
-    value++;
-    document.getElementById('clickerTotal').value = value;
+	value = isNaN(value) ? 0 : value;
+	value++;
+	document.getElementById('clickerTotal').value = value;
 	checkClickerTotal(value);					
 }
 
 function increaseCurrentTotal()
 {
 	var value = parseInt(document.getElementById('currentTotal').value, 10);
-    value = isNaN(value) ? 0 : value;
-    value++;
-    document.getElementById('currentTotal').value = value;						
+    	value = isNaN(value) ? 0 : value;
+    	value++;
+    	document.getElementById('currentTotal').value = value;						
 }
 
 function increaseCharacterLevel()
@@ -209,7 +208,6 @@ function getRockCalc()
 	var interval = document.getElementById('rockInterval').value;
 	if(interval != 0)
 	{
-		var displayValue = (total/interval);
-		document.getElementById('rockCalc').value = displayValue;
+		document.getElementById('rockCalc').value = total/interval;
 	}
 }
