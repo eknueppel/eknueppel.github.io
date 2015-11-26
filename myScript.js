@@ -210,6 +210,6 @@ function getRockCalc()
 	if(interval != 0)
 	{
 		var displayValue = (total/interval);
-		document.getElementById('rockCalc').value = displayValue.toFixed(2);
+		document.getElementById('rockCalc').value = displayValue;
 	}
 }
