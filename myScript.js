@@ -195,9 +195,12 @@ function setRockType(value)
 	else
 	{
 		rock = {rockType:"",interval:0};
-	}				 
-	document.getElementById('rockName').innerHTML = rock.rockType;
-	document.getElementById('rockInterval').value = rock.interval;	
+	}
+	if(interval > 0)
+	{
+		document.getElementById('rockName').innerHTML = rock.rockType;
+		document.getElementById('rockInterval').value = rock.interval;	
+	}
 }
 
 function getRockCalc()
