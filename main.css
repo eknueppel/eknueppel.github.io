@@ -18,6 +18,7 @@ div h1.header
 }
 div a.button 
 {
+	display: block;
 	background: #262626;            
 	border: 1px solid #404040;            
 	color: #FFFFFF;
@@ -29,6 +30,4 @@ div a.button
 div a.button:hover 
 {                
 	background: #404040;
-	width: 250px;
-	
 }
