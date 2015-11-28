@@ -15,16 +15,12 @@ table
 {
 	
 	table-layout: auto;
-	width: 500px;
+	
 }
-tr
-{
-	width: 500px;
-}
+
 td
 {
 	padding-bottom: 3px;
-	width: 500px;
 }
 td a.button 
 {
