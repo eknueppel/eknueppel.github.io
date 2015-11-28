@@ -22,9 +22,12 @@
 		<h3 style="color:#F98530" >Send an email to Neutrino Solutions:</h3>
 		
 		<form style="color:#24F6ED" method="POST" action="//formspree.io/edward.knueppel.jr@gmail.com">
-    			Name<input type="text" name="name"></br>
-    			Email<input type="email" name="_replyto"></br>
+			<input type="text" name="_gotcha" style="display:none" />
+    			Name: <input type="text" name="name"></br>
+    			Phone: <input type="text" name="name"></br>
+    			Email: <input type="email" name="_replyto"></br>
     			<textarea name="name">Message</textarea></br>
+    			<input type="hidden" name="_subject" value="Thank you for contacting Neutrino Solutions!" />
     			<input type="submit" value="Send"></br>
     			<input type="hidden" name="_next" value="thanks.html" />
 		</form>
