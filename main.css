@@ -10,4 +10,12 @@ body
 	background-image: url("https://cloud.githubusercontent.com/assets/15965959/11448293/0b9b203a-950a-11e5-82ef-217ecdfde552.jpg");            
 	background-repeat: no-repeat;            
 	background-position: center;        
-}    
+}
+td
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-style: soild;
+	border-width: 2px;
+	border-color: #800000;
+}
