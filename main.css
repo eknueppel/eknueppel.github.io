@@ -25,12 +25,13 @@ td a.button
 	margin-top: 0px;            
 	padding: 0 15px 3px;            
 	text-decoration: none;
-	text-align: center;        
+	text-align: center;
+	width: 200px;
 }            
 td a.button img 
 {              
 	padding: 10px 0 0 15px;
-	
+	width: 200px;
 }            
 td a.button:hover 
 {                
