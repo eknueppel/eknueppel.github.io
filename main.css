@@ -11,6 +11,10 @@ body
 	background-repeat: no-repeat;            
 	background-position: center;        
 }
+table
+{
+	width: 250px;
+}
 tr
 {
 	width: 200px;
