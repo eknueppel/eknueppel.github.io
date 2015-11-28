@@ -11,6 +11,10 @@ body
 	background-repeat: no-repeat;            
 	background-position: center;        
 }
+div
+{
+	color: #A12629
+}
 table
 {
 	table-layout: fixed;
