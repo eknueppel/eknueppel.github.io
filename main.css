@@ -13,15 +13,12 @@ body
 }
 table
 {
-	
-	table-layout: auto;
+	table-layout: fixed;
 	border: 3px solid #404040;
-	
 }
-
 td
 {
-	padding-bottom: 3px;
+	padding-bottom: 3px auto;
 }
 td a.button 
 {
@@ -30,7 +27,6 @@ td a.button
 	color: #FFFFFF;
 	font-size: 24px;
 	text-decoration: none;
-	width: 500px;
 }            
 td a.button:hover 
 {                
