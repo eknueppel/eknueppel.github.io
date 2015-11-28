@@ -14,17 +14,17 @@ body
 div h1.header
 {
 	color: #A12629
-	width: 250px;
 }
 div a.button 
 {
-	display: block;
+	display:block;
+	width:400px;
 	background: #262626;            
 	border: 1px solid #404040;            
 	color: #FFFFFF;
 	font-size: 24px;
 	text-decoration: none;
-	width: 250px;
+	
 	
 }            
 div a.button:hover 
