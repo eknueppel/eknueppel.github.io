@@ -86,12 +86,12 @@ td a.button:hover
 #content h1 
 {                
 	                
-	color: #ffffff;                
+	color: #E7D229;                
 	font-weight: normal;                
-	font-size: 70px;                
-	line-height: 48pt;                
+	font-size: 35px;                
+	line-height: 36pt;                
 	width: 800px;           
-	padding-bottom: 15px; 
+	padding-bottom: 5px; 
 } 
 #content a.button 
 {            
