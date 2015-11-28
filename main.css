@@ -32,8 +32,10 @@ td a.button
 	color: #FFFFFF;
 	font-size: 24px;
 	text-decoration: none;
+	width: 100%;
 }            
 td a.button:hover 
 {                
-	background: #404040;            
+	background: #404040;
+	width: 100%;
 }
