@@ -2,7 +2,7 @@ html
 {            
 	height: 100%;            
 	width: 100%;  
-	font-family: "Comic Sans MS", cursive, sans-serif;      
+	font-family: "Georgia", cursive, sans-serif;      
 }
 td
 { 
@@ -55,7 +55,7 @@ td a.button:hover
 	border: 1px solid #FFFFFF;            
 	color: #FFFFFF;            
 	display: inline-block;            
-	font-family: Segoe UI;            
+	font-family: Georgia;            
 	font-size: 24px;            
 	line-height: 46px;            
 	margin-top: 10px;            
@@ -99,7 +99,7 @@ td a.button:hover
 	border: 1px solid #FFFFFF;            
 	color: #FFFFFF;            
 	display: inline-block;            
-	font-family: Segoe UI;            
+	font-family: Georgia;            
 	font-size: 24px;            
 	line-height: 46px;            
 	margin-top: 10px;            
@@ -124,7 +124,7 @@ input
 	background:#336699;
 	border: none;
 	color: white;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Georgia", cursive, sans-serif;
 } 
 body 
 {            
