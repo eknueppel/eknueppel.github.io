@@ -22,7 +22,7 @@
 
 		<h3 style="color:#F98530" >Send an email to Neutrino Solutions:</h3>
 
-		<form style="color:#24F6ED" action="MAILTO:edward.knueppel.jr@gmail.com" method="post" enctype="text/plain">
+		<form style="color:#24F6ED" action="contact-form-handler.php" method="post" name="contact_form">
 		Name:<br>
 		<input type="text" name="name" value="Your Name"><br>
 		Phone:<br>
@@ -30,10 +30,17 @@
 		E-mail:<br>
 		<input type="text" name="mail" value="Your Email"><br>
 		Comment:<br>
-		<input type="text" name="comment" value="What services do you require?" size="50"><br><br>
+		<textarea type="text" name="comment" value="What services do you require?" size="50"><br><br>
 		<input type="submit" value="Send">
 		<input type="reset" value="Reset">
 		</form>
+		
+		<script language="JavaScript">
+			var frmvalidator  = new Validator("contactform");
+			frmvalidator.addValidation("name","req","Please provide your name");
+			frmvalidator.addValidation("email","req","Please provide your email");
+			frmvalidator.addValidation("email","email","Please enter a valid email address");
+		</script>
 
 		<div style="position: absolute; bottom: 5px;" class="fb-like" data-href="https://www.facebook.com/neutrinosolutions" data-width="20" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
 	</body>
