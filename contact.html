@@ -40,7 +40,11 @@
 		Enter Message:  <textarea name="message"></textarea>
 		<input type="submit" value="Send Form">
 		</form>
-		
+		error_page   405 =200 @405;
+        location @405 {
+            root  /htdocs;
+            proxy_pass   http://localhost:8080;
+        }
 		<script language="JavaScript">
 			var frmvalidator  = new Validator("contactform");
 			frmvalidator.addValidation("name","req","Please provide your name");
