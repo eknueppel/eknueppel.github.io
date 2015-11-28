@@ -31,7 +31,7 @@ tr
 }
 td a.button 
 {            
-	background: #204060;            
+	background: #262626;            
 	border: 1px solid #FFFFFF;            
 	color: #FFFFFF;
 	font-size: 24px;            
@@ -76,7 +76,7 @@ td a.button:hover
 	           
 	font-weight: normal;            
 	font-size: 26px;            
-	color: #ffffff;            
+	color: #24F6ED;            
 	float: left;            
 	width: 500px;            
 	margin-top: 10px;            
