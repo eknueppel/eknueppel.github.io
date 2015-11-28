@@ -18,16 +18,13 @@ td
 }
 td a.button 
 {
+	width: 50%;
 	background: #262626;            
 	border: 1px solid #404040;            
 	color: #FFFFFF;
-	font-size: 24px;            
-	line-height: 46px;            
-	margin-top: 0px;            
-	padding: 0 15px 3px;            
-	text-decoration: none;
+	font-size: 24px;
+	padding: 0 15px 3px;
 	text-align: center;
-	width: 50%;
 }            
 td a.button img 
 {              
