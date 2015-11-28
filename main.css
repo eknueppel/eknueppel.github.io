@@ -11,11 +11,10 @@ body
 	background-repeat: no-repeat;            
 	background-position: center;        
 }
-a
+td
 {
+	border: 10px solid #800000;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	border-style: soild;
-	border-width: 2px;
-	border-color: #800000;
 }
+
