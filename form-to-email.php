@@ -1,13 +1,13 @@
 <?php
-  $name = $_POST['name'];
-  $visitor_email = $_POST['email'];
-  $message = $_POST['message'];
+  $name = $_GET['name'];
+  $visitor_email = $_GET['email'];
+  $message = $_GET['message'];
 
-    $email_from = 'edward.knueppel.jr@gmail.com';
+  $email_from = 'edward.knueppel.jr@gmail.com';
  
-    $email_subject = "New Form submission";
+  $email_subject = "New Form submission";
  
-    $email_body = "You have received a new message from the user $name.\n".
+  $email_body = "You have received a new message from the user $name.\n".
                             "Here is the message:\n $message".
 
  
