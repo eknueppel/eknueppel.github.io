@@ -11,10 +11,6 @@ body
 	background-repeat: no-repeat;            
 	background-position: center;        
 }
-div h1.header
-{
-	color: #A12629
-}
 div a.button 
 {
 	display:block;
@@ -24,8 +20,7 @@ div a.button
 	color: #FFFFFF;
 	font-size: 24px;
 	text-decoration: none;
-	
-	
+	text-align: center;
 }            
 div a.button:hover 
 {                
