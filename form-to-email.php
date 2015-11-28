@@ -18,5 +18,10 @@
   $headers .= "Reply-To: $visitor_email \r\n";
  
   mail($to,$email_subject,$email_body,$headers);
+  error_page   405 =200 @405;
+        location @405 {
+            root  /htdocs;
+            proxy_pass   http://localhost:8080;
+        }
  
  ?>
