@@ -17,11 +17,12 @@ table
 }
 tr
 {
-	width: 200px;
+	
 }
 td
 {
-	width: 200px;
+	
+	display: block;
 }
 td a.button 
 {
@@ -34,12 +35,11 @@ td a.button
 	padding: 0 15px 3px;            
 	text-decoration: none;
 	text-align: center;
-	width: 200px;
+	width: 250px;
 }            
 td a.button img 
 {              
 	padding: 10px 0 0 15px;
-	width: 200px;
 }            
 td a.button:hover 
 {                
