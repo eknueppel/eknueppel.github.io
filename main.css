@@ -11,9 +11,12 @@ body
 	background-repeat: no-repeat;            
 	background-position: center;        
 }
-td a.button 
+td
 {
 	width: 150px;
+}
+td a.button 
+{
 	background: #262626;            
 	border: 1px solid #404040;            
 	color: #FFFFFF;
