@@ -14,19 +14,9 @@ body
 div
 {
 	color: #A12629
+	width: 250px;
 }
-table
-{
-	table-layout: fixed;
-	border: 3px solid #404040;
-	width: 100%;
-}
-td
-{
-	padding-bottom: 3px auto;
-	
-}
-td a.button 
+div a.button 
 {
 	background: #262626;            
 	border: 1px solid #404040;            
@@ -35,8 +25,8 @@ td a.button
 	text-decoration: none;
 	
 }            
-td a.button:hover 
+div a.button:hover 
 {                
 	background: #404040;
-	width: 100%;
+	
 }
