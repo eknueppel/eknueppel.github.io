@@ -1,7 +1,7 @@
 <?php
-  $name = $_GET['name'];
-  $visitor_email = $_GET['email'];
-  $message = $_GET['message'];
+  $name = $_POST['name'];
+  $visitor_email = $_POST['email'];
+  $message = $_POST['message'];
 
   $email_from = 'edward.knueppel.jr@gmail.com';
  
