@@ -11,17 +11,9 @@ body
 	background-repeat: no-repeat;            
 	background-position: center;        
 }
-table
-{
-	width: 250px;
-}
-tr
-{
-	
-}
 td
 {
-	
+	width: 20%;
 	display: block;
 }
 td a.button 
@@ -35,7 +27,6 @@ td a.button
 	padding: 0 15px 3px;            
 	text-decoration: none;
 	text-align: center;
-	width: 250px;
 }            
 td a.button img 
 {              
