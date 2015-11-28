@@ -1,3 +1,4 @@
+<?php
 $errors = '';
 $myemail = 'edward.knueppel.jr@gmail.com';
 if(empty($_POST['name'])  ||
@@ -29,3 +30,4 @@ mail($to,$email_subject,$email_body,$headers);
 //redirect to the 'thank you' page
 header('Location: contact-form-thank-you.html');
 }
+?>
