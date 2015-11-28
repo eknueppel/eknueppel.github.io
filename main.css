@@ -11,18 +11,22 @@ body
 	background-repeat: no-repeat;            
 	background-position: center;        
 }
+td
+{
+	padding: 3px 15px 3px;
+}
 td a.button 
 {
 	background: #262626;            
 	border: 1px solid #404040;            
 	color: #FFFFFF;
 	font-size: 24px;
-	padding: 3px 15px 3px;
+	
 	text-align: center;
 }            
 td a.button img 
 {              
-	padding: 10px 0 0 15px;
+	
 }            
 td a.button:hover 
 {                
