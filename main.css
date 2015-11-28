@@ -11,7 +11,7 @@ body
 	background-repeat: no-repeat;            
 	background-position: center;        
 }
-div.header
+div h1.header
 {
 	color: #A12629
 	width: 250px;
