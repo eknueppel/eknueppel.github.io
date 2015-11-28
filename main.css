@@ -12,7 +12,8 @@ body
 	background-position: center;        
 }
 td a.button 
-{            
+{
+	width: 150px;
 	background: #262626;            
 	border: 1px solid #404040;            
 	color: #FFFFFF;
@@ -26,7 +27,7 @@ td a.button
 td a.button img 
 {              
 	padding: 10px 0 0 15px;
-	width: 150px;
+	
 }            
 td a.button:hover 
 {                
